@@ -182,6 +182,121 @@ foothold_syria/
 - Weather and environmental effects
 - Mission scoring systems
 
+## Documentation Overview
+
+This project includes comprehensive documentation to help developers understand, extend, and maintain the mission. All documentation files are written in Markdown format and provide detailed technical information about each system.
+
+### Core Documentation
+
+#### **README.md** (This File)
+- Mission overview and feature summary
+- Installation and setup instructions
+- Gameplay mechanics and objectives
+- Technical requirements and parameters
+
+#### **DEVELOPMENT.md**
+- Development guide for mission extension
+- Code organization and modification guidelines
+- Best practices for adding new features
+- Testing and debugging procedures
+
+#### **CODE_OVERVIEW.md**
+- Detailed code structure and feature mapping
+- File-by-file breakdown of functionality
+- Important data structures and parameters
+- Design patterns and architecture overview
+
+### System-Specific Documentation
+
+#### **ZONE_SYSTEM.md**
+- Complete zone system architecture and lifecycle
+- Zone types, upgrades, and unit management
+- Capture mechanics and strategic relationships
+- Zone configuration and era-specific settings
+
+#### **MISSION_SYSTEM.md**
+- AI mission generation and execution framework
+- GroupCommander system and mission types
+- Attack, supply, and patrol mission implementations
+- Mission targeting and coordination systems
+
+#### **ECONOMY_SYSTEM.md**
+- Credit management, shops, and player rewards
+- Economic balance and resource allocation
+- Player contribution tracking and statistics
+- Shop system configuration and operations
+
+#### **PLAYER_SYSTEM.md**
+- Player statistics, progression, and permissions
+- Achievement system and milestone tracking
+- Player groups and coordination features
+- Player events and interaction systems
+
+#### **LOGISTICS_SYSTEM.md**
+- CTLD (Cargo Transport Logistics and Deployment) framework
+- FARP (Forward Arming and Refueling Point) operations
+- Supply chain management and cargo transport
+- Deployable units and resource management
+
+#### **COMMUNICATION_SYSTEM.md**
+- Radio system, chat commands, and F10 menus
+- Status messages and notification systems
+- Player communication and help systems
+- Menu generation and user interface
+
+#### **EVENT_SYSTEM.md**
+- Event handling, triggers, and callbacks
+- Event types, handlers, and processing
+- Trigger conditions and event logging
+- Event analytics and system integration
+
+### Technical Documentation
+
+#### **PERSISTENCE.md**
+- Save/load system implementation
+- Mission state management and data structures
+- File formats and backup systems
+- Era-specific persistence handling
+
+#### **AI_COMMANDER.md**
+- AI behavior and commander system documentation
+- Strategic AI decision-making processes
+- AI mission coordination and execution
+- Dynamic AI response mechanisms
+
+#### **SAM.md**
+- Surface-to-Air Missile system implementation
+- SAM types, ranges, and capabilities
+- Air defense coordination and threat response
+- SAM site management and deployment
+
+### Documentation Features
+
+Each documentation file includes:
+- **Architecture Overview**: System hierarchy and relationships
+- **Code Examples**: Practical implementation examples
+- **Configuration Details**: Parameters and settings
+- **Extension Points**: How to add new features
+- **Troubleshooting**: Common issues and solutions
+- **Performance Considerations**: Optimization guidelines
+- **Future Enhancements**: Potential improvements and ideas
+
+### Getting Started with Development
+
+1. **Start with README.md** for mission overview
+2. **Review CODE_OVERVIEW.md** for system architecture
+3. **Read system-specific docs** for areas you want to modify
+4. **Follow DEVELOPMENT.md** for best practices
+5. **Use technical docs** for detailed implementation
+
+### Contributing
+
+When contributing to the project:
+- Follow the patterns established in existing code
+- Update relevant documentation when adding features
+- Test changes thoroughly before submitting
+- Reference the appropriate documentation files
+
 ## Credits and Acknowledgments
 
 This mission is based on the original Foothold concept and has been extended with:
